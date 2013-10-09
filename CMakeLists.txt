@@ -2,7 +2,7 @@
 set(MODULE_NAME flipbookPlayer)
 
 # Set module name and source files here
-add_library(${MODULE_NAME} SHARED 
+add_library(${MODULE_NAME} MODULE 
 	flipbookPlayer.cpp)
 
 # Set the module library dependencies here
